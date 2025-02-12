@@ -199,9 +199,16 @@ for (let i = 1; i <= 50; i++) {
 console.log(`for loop use: ${number010}`);
 
 //// Problem-Bonus.  ১০ থেকে ১ পর্যন্ত সমস্ত সংখ্যার গুণফল বের করুন।
+let numBonus = 1;
+for (let i = 10; i >= numBonus; i--) {
+  // console.log(numBonus);
+  gun = `${i}*${i}`;
+  console.log(`${gun}=${i * i}`);
+}
+
 // while loop
 let bonusProblem = 10;
-while (bonusProblem > 1) {
+while (bonusProblem >= 1) {
   let gunfol = `${bonusProblem}*${bonusProblem}`;
   console.log(`${gunfol} = ${bonusProblem * bonusProblem}`);
   bonusProblem--;
